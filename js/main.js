@@ -14,6 +14,7 @@ document.getElementById('play').addEventListener('click',
                 element.addEventListener('click',
                      function(){
                         this.style.backgroundColor = 'red';
+                        this.style.color = 'white';
                         console.log(i);
 
                     }
