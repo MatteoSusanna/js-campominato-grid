@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #7fffd4;
+    
+}
+
+header{
+    background-color: white;
+}
+
+header .container-top{
+    height: 100px;
+    margin: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #play{
+    font-size: 20px;
+    padding: 2px 30px;
+    border-radius: 10px;
+}
+
+main{
+    height: calc(100vh - 260px);
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 600px;
+    width: 600px;
+    margin: 100px auto;
+}
+
+.box{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 3px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer .container-bot{
+    margin-left: 70px;
+}
