@@ -28,16 +28,16 @@ header #play{
 }
 
 main{
-    height: calc(100vh - 160px);
+    height: calc(100vh - 220px);
 }
 
 #container{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 100%;
-    width: 40%;
-    margin: auto;
+    height: 70vh;
+    width: 70vh;
+    margin: 60px auto 0;
 }
 
 .box{
@@ -48,17 +48,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

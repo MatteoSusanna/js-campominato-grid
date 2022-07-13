@@ -21,9 +21,7 @@ document.getElementById('play').addEventListener('click',
                 );
                
                 containerDom.append(element);
-            }
-
-        
+            }        
         }
 );
 
