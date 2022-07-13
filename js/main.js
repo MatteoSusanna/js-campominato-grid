@@ -33,11 +33,7 @@ function griglia (numeroInternoAlBox){
     let element = document.createElement('div');
     element.classList.add('box');
 
-    //creazione numero che è all'interno del box
-    let numeroInterno = document.createElement('div');
-    numeroInterno.classList.add('numeroInterno');
-    numeroInterno.append(numeroInternoAlBox);
 
-    element.append(numeroInterno);
+    element.append(numeroInternoAlBox);
     return element;
 }
