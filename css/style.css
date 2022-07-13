@@ -46,10 +46,10 @@ main{
     border: 3px solid black;
 }
 
-.none{
-    display: none;
+.numeroInterno{
+    display: flex;
+    justify-content: center;
 }
-
 
 
 
