@@ -28,7 +28,7 @@ header #play{
 }
 
 main{
-    height: calc(100vh - 220px);
+    height: calc(100vh - 160px);
 }
 
 #container{
@@ -37,7 +37,7 @@ main{
     align-content: flex-start;
     height: 70vh;
     width: 70vh;
-    margin: 60px auto 0;
+    margin:  auto ;
 }
 
 .box{
