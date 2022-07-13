@@ -60,3 +60,7 @@ footer{
 footer .container-bot{
     margin-left: 70px;
 }
+
+.none{
+    display: none;
+}

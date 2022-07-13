@@ -3,10 +3,9 @@ const containerDom = document.getElementById('container');
 //evento click crea gliglia
 document.getElementById('play').addEventListener('click',
         function(){
-
+            containerDom.innerHTML = '';
             //ciclo per creare 100 box nella griglia
             for (let i = 1; i <= 100; i++){
-
 
                 let element = griglia(i);
                 
